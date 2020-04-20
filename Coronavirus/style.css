@@ -1,0 +1,172 @@
+.main_header{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #30A2FF;   
+}
+.main_header h1{
+    font-size: 3em;
+    padding: 10px;
+}
+.logo{
+    width: 230px;
+    margin: 10px auto;
+}
+
+.main_cta{
+    width: 100%;
+    background-image: url('_img/corona3.jpg');
+    background-color: #2d3142;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.main_cta .main_cta_content{
+    max-width: 1300px;
+    margin: 0 auto; 
+}
+.main_cta .main_cta_content h1{
+    font-size: 3em;
+    color: #fff;
+    font-weight:700;
+    text-align: right;
+    margin-left: 20%;
+    
+}
+.main_cta .main_cta_content p{
+    font-size: 1.875em;
+    color: #fff;
+    font-weight:300;
+    text-align: center;
+    margin: 20px 0;
+}
+.main_cta .main_cta_content .btn{
+    background-color: #fff;
+    color: #000;
+    font-size: 1.0em;
+    padding: 10px 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 80%;
+    margin-bottom: 20%;
+    font-weight: 500;
+}
+.main_cta .main_cta_content .main_cta_content_spacer{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 100px 40px;
+}
+.main_what_covid{
+    max-width: 1300px;
+    display: flex;
+    max-width: 1300px;
+    margin: 20px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main_what_covid .main_what_covid_header{
+    flex-basis: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.main_what_covid .main_what_covid_header h1{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 3em;
+    color: #000;
+    font-weight: 300;
+}
+.main_what_covid article{
+    flex-basis: 32%;
+    width: 100%;
+    background-color: #30A2FF;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+.main_what_covid article h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.main_what_covid article p{
+    text-align: justify;
+    margin: 15px 20px;
+    font-weight: 600;
+}
+
+.main_grafic{
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    background-color: #185180;
+    height: 600px;
+}
+.main_grafic h1{
+    color: #fff;
+    margin: 20px auto;
+}
+
+.main_fundamentals{
+    max-width: 1300px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main_fundamentals .main_fundamentals_header{
+    text-align: center;
+    flex-basis:100%;
+}
+.main_fundamentals .main_fundamentals_header h1{
+    margin: 40px auto;
+    font-size: 3em;
+    color: #000;
+    font-weight: 300;
+}
+.main_fundamentals .main_fundamentals_diagnostic{
+    flex-basis: 100%;
+    background-color: #ddd;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+.main_fundamentals .main_fundamentals_diagnostic h2{
+    margin: 20px 10px 0px;
+}
+.main_fundamentals .main_fundamentals_diagnostic p{
+    margin: 10px 20px;
+    font-weight: 700;   
+    text-align: justify;
+}
+.main_fundamentals .main_fundamentals_diagnostic li{
+    text-decoration: none;
+    margin-left: 60px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.main_fundamentals .main_fundamentals_articles{
+    flex-basis: 48%;
+    margin: 20px auto;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+.main_fundamentals .main_fundamentals_articles h2{
+    margin: 20px 10px 0px;
+}
+.main_fundamentals .main_fundamentals_articles p{
+    margin: 10px 20px;
+    font-weight: 700;   
+    text-align: justify;
+}
+.main_fundamentals .main_fundamentals_articles li{
+    text-decoration: none;
+    margin-left: 60px;
+    margin-right: 10px;
+    text-align: justify;
+}
