@@ -32,7 +32,7 @@
     font-weight:700;
     text-align: right;
     margin-left: 20%;
-    
+    margin-bottom: 26%;
 }
 .main_cta .main_cta_content p{
     font-size: 1.875em;
@@ -169,4 +169,15 @@
     margin-left: 60px;
     margin-right: 10px;
     text-align: justify;
+}
+.footer_header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #30A2FF;   
+}
+.footer_header h1{
+    margin: 20px auto;
+    color: #fff;
+    font-size: 3em;
 }
