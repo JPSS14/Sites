@@ -58,6 +58,7 @@
     max-width: 1300px;
     padding: 100px 40px;
 }
+
 .main_what_covid{
     max-width: 1300px;
     display: flex;
@@ -97,16 +98,52 @@
     font-weight: 600;
 }
 
-.main_grafic{
+.main_prevention{
     display: flex;
+    flex-wrap: wrap;
     margin: 20px auto;
-    justify-content: center;
     background-color: #185180;
-    height: 600px;
+    justify-content: space-between;
+    max-width: 1800px;
 }
-.main_grafic h1{
+.main_prevention h1{
     color: #fff;
     margin: 20px auto;
+}
+.main_prevention_header{
+    flex-basis: 100%;
+    width: 100%;
+    text-align: center;
+}
+.main_prevention .main_prevention_content{
+    display: flex;
+    flex-basis: 100%;
+    max-width: 1330px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ .main_prevention .main_prevention_content_img{
+    flex-basis: 48%;
+}
+ .main_prevention .main_prevention_content_img img{
+    flex-basis: 48%;
+    width: 500px;
+}
+.main_prevention .main_prevention_content_text{
+    flex-basis: 48%;
+}
+.main_prevention .main_prevention_content_text h2{
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #fff;
+}
+.main_prevention .main_prevention_content_text li{
+    text-align: justify;
+    margin: 5px 20px;
+    color: #fff;
+}
+.main_prevention .main_prevention_content_text ul{
+    margin: 40px auto;
 }
 
 .main_fundamentals{
