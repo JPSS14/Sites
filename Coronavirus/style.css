@@ -79,12 +79,13 @@
     font-weight: 300;
 }
 .main_what_covid article{
-    flex-basis: 32%;
+    flex-basis: 100%;
     width: 100%;
     background-color: #30A2FF;
     border-radius: 7px;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
+    margin: 10px auto;
 }
 .main_what_covid article h2{
     margin-top: 20px;
