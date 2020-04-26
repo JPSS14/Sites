@@ -1,0 +1,25 @@
+.header{
+    max-width: 100%;
+    background-color: brown;
+}
+.header .header_content{
+    width: 1300px;
+    display: flex;
+}
+.header_content_logo img{
+    width: 100%;
+}
+.header_content .header_content_logo{
+    display: flex;
+    flex-basis: 15.5%;
+    justify-content: start;
+    padding: 20px;
+}
+.header_content .header_content_text{
+    display: flex;
+    flex-basis: 75.50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    text-align: center;
+}
