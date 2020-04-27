@@ -1,37 +1,75 @@
 .header{
-    max-width: 100%;
+    width: 100%;
     background-color: brown;
 }
-.header .header_content{
-    width: 1300px;
-    display: flex;
-}
-.header_content_logo img{
+.header_content{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.header_content .header_content_logo{
+    width: 500px;
 }
 .header_content .header_content_logo{
     display: flex;
-    flex-basis: 15.5%;
+    flex-basis: 200px;
     justify-content: start;
-    padding: 20px;
+    padding: 10px 0;
 }
 .header_content .header_content_text{
-    display: flex;
-    flex-basis: 75.50%;
-    justify-content: center;
-    align-items: center;
-    font-size: 3.5em;
+    flex-basis: calc(100% - 200px);
+    justify-content: start;
     text-align: center;
+    font-size: 3.5em;
 }
 
-
-.main_cta{
+/* Initial Parallax */
+#parallax_img1{
     background-image: url(_img/tatooine.jpg);
+    width: 100px;
+}
+.main_parallax{
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
-    padding: 23% 10%;
+    padding: 22% 10%;
     min-width: 100%;
     width: 100%;
     box-sizing: border-box;
     transform-style: inherit;
+}
+
+/* Importance */
+.main_importance{
+    display: flex;
+    max-width: 1300px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.main_importance .main_importance_header{
+    flex-basis: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.main_importance .main_importance_header h1{
+    font-size: 3em;
+}
+.main_importance .main_importance_content{
+    flex-basis: 100%;
+}
+.main_importance .main_importance_content p{
+    font-size: 1.2em;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+/* Second Parallax */
+#parallax_img2{
+    background-image: url(_img/tatooine-ep1.jpg);
 }
