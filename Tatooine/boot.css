@@ -8,3 +8,9 @@
 html {
  font-family: 'Ubuntu', sans-serif;
 }
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    perspective: 1px;
+}
