@@ -80,6 +80,7 @@
     display: flex;
     margin: 20px auto;
     flex-wrap: wrap;
+    justify-content: center;
     max-width: 1300px;
 }
 .main_people .main_people_header{
@@ -95,7 +96,9 @@
 
 /* Salespeople */
 
-.main_people_salespeople{
+.main_people .main_people_salespeople{
+    width: 100%;
+    flex-basis: 100%;
     display: flex;
     flex-wrap: wrap;
     border: solid 2px black;
@@ -105,23 +108,68 @@
     -webkit-border-radius: 17px;
     justify-content: space-between;
 }
-.main_people_salespeople_header{
+.main_people .main_people_salespeople_header{
     flex-basis: 100%;
 }
 .main_people_salespeople .main_people_salespeople_header h2{
     font-size: 1.5em;
     margin: 20px auto;
 }
-.main_people_salespeople_img{
-    flex-basis: 38%;
+.main_people_salespeople .main_people_salespeople_img{
+    flex-basis: 40%;
+    width: 100%;
     border-radius: 17px;
     -moz-border-radius: 17px;
     -webkit-border-radius: 17px;
 }
-.main_people_salespeople_content{
-    flex-basis: 60%;
+.main_people_salespeople .main_people_salespeople_content{
+    flex-basis: 59%;
+    width: 100%;
 }
-.main_people_salespeople_content p{
-    font-size: 1.2em;
+.first-p{
+    margin: 0px 10px !important;
+}
+.main_people_salespeople .main_people_salespeople_content p{
+    font-size: 1.2em; 
+    margin: 20px 10px;
+    text-align: justify;
+}
+
+/* Smuggler */
+
+.main_people .main_people_smuggler{
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px black;
+    padding: 20px;
+    border-radius: 17px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    justify-content: space-between;
     margin: 20px auto;
+}
+.main_people .main_people_smuggler_header{
+    flex-basis: 100%;
+}
+.main_people_smuggler .main_people_smuggler_header h2{
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+.main_people_smuggler .main_people_smuggler_img{
+    flex-basis: 40%;
+    width: 100%;
+    border-radius: 17px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+}
+.main_people_smuggler .main_people_smuggler_content{
+    flex-basis: 59%;
+    width: 100%;
+}
+.main_people_smuggler .main_people_smuggler_content p{
+    font-size: 1.2em; 
+    margin: 20px 10px;
+    text-align: justify;
 }
