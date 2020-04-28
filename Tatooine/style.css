@@ -71,5 +71,57 @@
 
 /* Second Parallax */
 #parallax_img2{
-    background-image: url(_img/tatooine-ep1.jpg);
+    background-image: url(_img/tatooine-city.jpg);
+}
+
+/* PEOPLE */
+
+.main_people{
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    max-width: 1300px;
+}
+.main_people .main_people_header{
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.main_people .main_people_header h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Salespeople */
+
+.main_people_salespeople{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px black;
+    padding: 20px;
+    border-radius: 17px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    justify-content: space-between;
+}
+.main_people_salespeople_header{
+    flex-basis: 100%;
+}
+.main_people_salespeople .main_people_salespeople_header h2{
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+.main_people_salespeople_img{
+    flex-basis: 38%;
+    border-radius: 17px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+}
+.main_people_salespeople_content{
+    flex-basis: 60%;
+}
+.main_people_salespeople_content p{
+    font-size: 1.2em;
+    margin: 20px auto;
 }
