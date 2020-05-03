@@ -173,3 +173,42 @@
     margin: 20px 10px;
     text-align: justify;
 }
+
+/* Bounty Hunter */
+
+.main_people .main_people_bhunter{
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px black;
+    padding: 20px;
+    border-radius: 17px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.main_people .main_people_bhunter_header{
+    flex-basis: 100%;
+}
+.main_people_bhunter .main_people_bhunter_header h2{
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+.main_people_bhunter .main_people_bhunter_img{
+    flex-basis: 40%;
+    width: 100%;
+    border-radius: 17px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+}
+.main_people_bhunter .main_people_bhunter_content{
+    flex-basis: 59%;
+    width: 100%;
+}
+.main_people_bhunter .main_people_bhunter_content p{
+    font-size: 1.2em; 
+    margin: 20px 10px;
+    text-align: justify;
+}
