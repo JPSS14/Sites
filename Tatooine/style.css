@@ -212,3 +212,39 @@
     margin: 20px 10px;
     text-align: justify;
 }
+
+/* Tird Parallax */
+
+#parallax_img3{
+    background-image: url(_img/tatooine-palacio-jabba.jpeg);
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    background-color: brown;
+}
+.footer_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.footer_content .footer_content_logo{
+    width: 500px;
+}
+.footer_content .footer_content_logo{
+    display: flex;
+    flex-basis: 200px;
+    justify-content: start;
+    padding: 10px 0;
+}
+.footer_content .footer_content_text{
+    flex-basis: calc(100% - 200px);
+    justify-content: start;
+    text-align: center;
+    font-size: 3.5em;
+}
