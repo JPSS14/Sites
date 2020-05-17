@@ -30,6 +30,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0;
 }
 
 .main_header .main_header_menu ul a{
@@ -44,7 +45,19 @@
     align-items: center;
     background-color: darkblue;
     padding: 20px;
+    position: relative;
 }
 .main_header .main_header_menu ul a li:hover{
     background-color: cyan;
+}
+/*  DROPDOWN  */
+.main_header .main_header_menu .dropdown ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    margin-right: 200px;
+}
+.main_header .main_header_menu .dropdown:hover{
+    list-style: none;
+    display: inline;
 }
