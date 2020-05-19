@@ -1,8 +1,8 @@
 .main_header{
     display: flex;
-    background-color: black;
+/*  background-color: black; */
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 15px;
 }
@@ -11,19 +11,51 @@
 
 .main_header_logo{
     display: flex;
-    background-color: brown;
-    flex-basis: 50%;
+/*  background-color: brown; */
+    flex-basis: 100%;
     justify-content: center;
 }
 .main_header_logo_img{
-    background-color: cornflowerblue;
-    width: 150px;
+/*  background-color: cornflowerblue;  */
+    width: 13%;
+}
+
+
+/* SOCIAL MIDIA */
+
+.main_header_midia{
+    flex-basis: calc(50%-10%);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.main_header_midia ul{
+    display: flex;
+    align-items: stretch;
+    padding: 0;
+}
+.main_header_midia ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.main_header_midia ul li a{
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    color:#000;
+    text-decoration: none;
+}
+.main_header_midia ul li a:hover{
+    color: cyan;
+    background-color: #fff;
 }
 
 /*    MENU     */
 .main_header_menu{
     flex-basis: 100%;
     margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px;
 }
 .main_header_menu ul{
     padding: 0;
@@ -35,7 +67,8 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    background-color: crimson;
+ /* background-color: crimson; */
+    background-color: darkgray;
     text-decoration: none;
     padding: 8px;
 }
@@ -63,7 +96,7 @@
     flex-direction: column;
     width: 100%;
     padding: 10px;
-    background-color: crimson;
+    background-color: darkgray;
 }
 
 .main_header .main_header_menu li:hover .dropdown_2 > li{
@@ -73,14 +106,25 @@
 .dropdown_2 li{
     display: none;
     position: relative;
-    flex-basis: 50%;
+    flex-basis: 32%;
+    
 }
 .dropdown_2{
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly ;
     flex-wrap: wrap;
-    width: 300%;
+    width: 500%;
     padding: 10px;
-    background-color: crimson;
+    background-color: darkgray;
+}
+.border_L{
+    border-left: solid 3px #fff;
+}
+.border_R{
+    border-left: solid 3px #fff;
+}
+.border_B{
+    border-left: solid 3px #fff;
+    border-right: solid 3px #fff;
 }
