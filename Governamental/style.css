@@ -195,9 +195,63 @@
     border-right: solid 3px #fff;
 }
 
+/* PARALLAX */
 
+#parallax_img1{
+    background-image: url(_img/mang3.jpg);
+}
 
-/*  RESPONSIBLE  */
+.main_parallax{
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 22% 10%;
+    min-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    transform-style: inherit;
+    z-index: -1;
+}
+
+/*  FEATURED  */
+
+.main_featured{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.main_featured_header{
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+.main_featured_header h1{
+    font-size: 3em;
+}
+.main_featured_header p{
+    font-size: 1.5em;
+}
+.main_featured article{
+    flex-basis: 23.7%;
+}
+.main_featured img{
+    width: 100%;
+}
+.main_featured article h2 {
+    font-size: 1em;
+    margin: 5px 0;
+}
+.main_featured article h2 a{
+    color: black;
+}
+.main_featured article p a{
+    color: black;
+}
+
+/*  RESPONSIVE  */
 
 @media (min-width: 1em){   
 
