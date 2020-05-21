@@ -73,7 +73,7 @@
  /* background-color: crimson; */
     background-color: darkgray;
     text-decoration: none;
-    padding: 8px;
+    padding: 13px;
 }
 .main_header_menu a:hover{
     background-color: cyan;
@@ -168,12 +168,17 @@
 .main_header .main_header_menu li:hover .dropdown_2 > li{
     display: block;
 }
-
+.dropdown_1 li a{
+    padding: 10px;
+}
 .dropdown_2 li{
     display: none;
     position: relative;
     flex-basis: 32%;
     
+}
+.dropdown_2 li a{
+    padding: 10px;
 }
 .dropdown_2{
     position: absolute;
@@ -272,19 +277,19 @@
     font-size: 3em;
     text-align: center;
     color: #fff;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 .main_news article{
     flex-basis: 48%;
-    margin: 20px 0;
+    margin: 10px 0;
     background-color: #fff;
     border-radius: 30px;
-    padding: 10px;
+    padding: 8px;
 }
 .main_news img{
     width: 40%;
     float: left;
-    margin-right: 5px;
+    margin-right: 10px;
     border-radius: 30px;
 }
 .main_news h2{
@@ -292,12 +297,15 @@
 }
 .main_news p{
     text-align: justify;
+    padding: 10px;
 }
 .main_news h2 a{
     color: black;
+    font-size: 1.1em;
 }
 .main_news p a{
     color: black;
+    margin-right: 10px;
 }
 
 /*  RESPONSIVE  */
