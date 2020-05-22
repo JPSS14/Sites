@@ -315,7 +315,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #F5CE3D;
-    padding: 15px 0;
+    padding: 5px 0;
     align-items: center;
 }
 .main_sic img{
@@ -330,6 +330,7 @@
 .main_sic_links{
     justify-content: center;
     flex-basis: 55%;
+    font-size: 0.85em;
 }
 .main_sic a{
     flex-basis: 50%;
@@ -415,6 +416,36 @@
         font-size: 1.3em;
         text-align: center;
     }
+    .main_news p{
+        padding: 5px;
+    }
+
+    /* SIC */
+    .main_sic img{
+        flex-basis: 15%;
+    }
+    .main_sic_header{
+        flex-basis: 100%;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .main_sic_link1{
+        font-size: 0.7em;
+        margin: 20px 0;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .main_sic_link2{
+        font-size: 0.7em;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .main_sic p{
+        flex-basis: 100%;
+        margin: 20px 5px;
+        text-align: center;
+    }
+
 }
 
 
@@ -474,6 +505,31 @@
     .main_news h2{
         font-size: 1.3em;
         text-align: center;
+    }
+
+     /* SIC */
+     .main_sic img{
+        flex-basis: 15%;
+    }
+    .main_sic_header{
+        flex-basis: 100%;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .main_sic_link1{
+        font-size: 0.7em;
+        margin: 20px 0;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .main_sic_link2{
+        font-size: 0.7em;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .main_sic p{
+        flex-basis: 100%;
+        margin: 20px 5px;
     }
 }
 
@@ -547,6 +603,37 @@
     .main_news p{
         padding: 5px;
     }
+
+    /* SIC */
+    .main_sic{
+        justify-content: space-around;
+    }
+    .main_sic img{
+        flex-basis: 8%;
+    }
+    .main_sic_header{
+        flex-basis: 10%;
+        font-size: 0.9em;
+        text-align: left;
+        margin-left: -20px;
+    }
+    .main_sic_link1{
+        font-size: 0.7em;
+        flex-basis: 47%;
+        margin-left: -20px;
+        text-align: left;
+    }
+    .main_sic_link2{
+        font-size: 0.7em;
+        flex-basis: 22%;
+        margin-left: -55px;
+        text-align: left;
+    }
+    .main_sic p{
+        flex-basis: 100%;
+        margin: 20px 5px;
+        text-align: center;
+    }
 }
 
 @media (min-width: 68em){
@@ -577,6 +664,38 @@
 
     .main_news p{
         padding: 10px;
+    }
+
+    /* SIC */
+
+    .main_sic{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #F5CE3D;
+        padding: 5px 0;
+        align-items: center;
+    }
+    .main_sic img{
+        flex-basis: 7%;
+    }
+    .main_sic_header{
+        flex-basis: 10%;
+    }
+    .main_sic_header h1{
+        font-size: 1em;
+    }
+    .main_sic_link1{
+        flex-basis: 32%;
+        font-size: 0.7em;
+    }
+    .main_sic_link2{
+        flex-basis: 20%;
+        font-size: 0.7em;
+    }
+    .main_sic p{
+        flex-basis: 23%;
     }
 }
 
