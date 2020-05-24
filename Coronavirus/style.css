@@ -223,6 +223,20 @@
     font-size: 3em;
 }
 
+@media (min-width: 1em){
+    .main_prevention .main_prevention_content_img img{
+        flex-basis: 100%;
+    }
+    .main_prevention .main_prevention_content_text{
+        flex-basis: 100%;
+    }
+    .main_prevention .main_prevention_content_text li{
+        margin: 0 25px;
+    }
+    .main_fundamentals .main_fundamentals_articles{
+        flex-basis: 100%;
+    }
+}
 
 @media (min-width: 28em){
 
