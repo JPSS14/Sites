@@ -422,6 +422,27 @@
     position: relative;
 }
 
+/* FOOTER */
+
+.main_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin-top: 60px;
+    background-color: darkgray;
+}
+.main_footer_header{
+    flex-basis: 48%;
+}
+.main_footer_header img{
+    width: 200px;
+}
+.main_footer_content{
+    flex-basis: 48%;
+    text-align: right;
+}
+
 /*  RESPONSIVE  */
 
 /* 16px */
