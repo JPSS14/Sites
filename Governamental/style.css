@@ -380,18 +380,18 @@
     color: black;
 }
 
-/*  TOURISM  */
+/*  DISTRICT  */
 
 .main_district{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px 0;
-    background-color: darkgray;
+    padding: 40px 0;
+    background-color: #fff;
 }
 .main_district_header{
     font-size: 3em;
-    color: #fff;
+    color: black;
     text-align: center;
     flex-basis: 100%;
     margin: 40px 0;
@@ -404,13 +404,21 @@
     border-radius: 12px;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
+.main_district article:hover{
+    transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-webkit-transition: 0.4s all ease; 
+	transition: 0.4s all ease; 
+	-o-transition: 0.4s all ease;
+}
 .main_district article h2{
     color: black;
     text-align: center;
+    margin: 10px 0;
 }
 .main_district article img{
     width: 700px;
-    margin-left: -150px;
     position: relative;
 }
 
@@ -516,6 +524,12 @@
 
      .main_service article{
         flex-basis: 48%;
+    }
+
+    /* DISTRICT */
+
+    .main_district article{
+        flex-basis: 90%;
     }
 }
 
@@ -710,6 +724,12 @@
     .main_service article{
         flex-basis: 32%;
     }
+
+    /* DISTRICT */
+
+    .main_district article{
+        flex-basis: 46%;
+    }
 }
 
 /* 1088px */
@@ -773,6 +793,12 @@
     }
     .main_sic p{
         flex-basis: 23%;
+    }
+
+    /* DISTRICT */
+
+    .main_district article{
+        flex-basis: 31%;
     }
 }
 
