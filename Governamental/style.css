@@ -380,6 +380,39 @@
     color: black;
 }
 
+/*  TOURISM  */
+
+.main_district{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: darkgray;
+}
+.main_district_header{
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    flex-basis: 100%;
+    margin: 40px 0;
+}
+.main_district article{
+    flex-basis: 31%;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+.main_district article h2{
+    color: black;
+    text-align: center;
+}
+.main_district article img{
+    width: 700px;
+    margin-left: -150px;
+    position: relative;
+}
 
 /*  RESPONSIVE  */
 
