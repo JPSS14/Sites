@@ -552,6 +552,20 @@
     .main_district article{
         flex-basis: 90%;
     }
+
+    /* FOOTER */
+
+    .main_footer{
+        justify-content: center;
+    }
+    .main_footer_header{
+        flex-basis: 10%;
+        justify-content: center;
+    }
+    .main_footer_content{
+        flex-basis: 100%;
+        text-align: center;
+    }
 }
 
 /* 560px */
@@ -636,6 +650,20 @@
     .main_sic p{
         flex-basis: 100%;
         margin: 20px 5px;
+    }
+
+    /* FOOTER */
+
+    .main_footer{
+        justify-content: space-around;
+    }
+    .main_footer_header{
+        flex-basis: 48%;
+        justify-content: center;
+    }
+    .main_footer_content{
+        flex-basis: 48%;
+        text-align: right;
     }
 }
 
