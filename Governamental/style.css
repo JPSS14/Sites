@@ -306,6 +306,16 @@
     color: black;
     margin-right: 10px;
 }
+.main_news_btn{
+    background-color: #fff;
+    padding: 20px;
+    color: black;
+    margin: 20px 0;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    font-size: 1.2em;
+}
 
 /* SIC */
 
@@ -441,6 +451,22 @@
 .main_footer_content{
     flex-basis: 48%;
     text-align: right;
+}
+
+/* STANDARD */
+
+.main_standard{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin: 20 auto;
+}
+.main_standard_header{
+    flex-basis: 97%;
+    justify-content: flex-start;
+    font-size: 3em;
+    color: black;
 }
 
 /*  RESPONSIVE  */
