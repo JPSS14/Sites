@@ -401,16 +401,18 @@
 }
 .main_home_service article{
     padding: 10px;
-    background-color: cadetblue;
+    background-color: #fff;
     flex-basis: 32%;
     margin-top: 10px;
     border-radius: 5px;
+    border-left: solid 5px cadetblue;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 .main_home_service article a{
-    color: #fff;
+    color: cadetblue;
 }
 .main_home_service article a:hover{
     color: black;
