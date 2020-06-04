@@ -703,10 +703,28 @@ AUTARCHY
     font-size: 1.7em;
     margin: 0px auto 10px auto;
 }
-.main_autarchy p{
-    font-size: 1.2em;
-    margin: 7px 10px;
-    text-align: justify;
+
+/*
+FMP  
+*/
+
+.main_fmp{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main_fmp_img{
+    width: 100%;
+    margin: 10px auto;
+}
+.logo_fmp{
+    width: 400px;
+}
+.main_fmp h2{
+    font-size: 1.7em;
+    margin: 0px auto 10px auto;
+}
+.main_fmp ul{
+    margin-left: 25px;
 }
 
 /*  RESPONSIVE  */
