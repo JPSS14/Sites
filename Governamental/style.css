@@ -688,6 +688,26 @@
     font-size: 1.1em;
 }
 
+/*
+AUTARCHY
+*/
+.main_autarchy{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main_autarchy img{
+    width: 100%;
+    margin: 10px auto;
+}
+.main_autarchy h2{
+    font-size: 1.7em;
+    margin: 0px auto 10px auto;
+}
+.main_autarchy p{
+    font-size: 1.2em;
+    margin: 7px 10px;
+    text-align: justify;
+}
 
 /*  RESPONSIVE  */
 

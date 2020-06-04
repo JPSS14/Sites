@@ -12,3 +12,52 @@ html {
     display: none !important;
 }
 
+/* 
+FLEX 
+*/
+.f{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-3{
+    flex-basis: calc(33.33% - 30px);
+    margin: 5px 15px;
+}
+/* 
+HEADER
+*/
+.main-header-black{
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    flex-basis: 100%;
+    margin: 20px;
+}
+/*
+ RESPONSIVE FLEX
+*/
+
+@media (min-width: 1em){
+    .flex-3{
+        flex-basis: 97%;
+    }
+}
+
+@media (min-width: 35em){
+    .flex-3{
+        flex-basis: 45%;
+    }
+}
+
+@media (min-width: 45em){
+    .flex-3{
+        flex-basis: 45%;
+    }
+}
+
+@media (min-width: 68em){
+    .flex-3{
+        flex-basis: 30%;
+    }
+}
