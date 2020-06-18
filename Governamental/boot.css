@@ -25,7 +25,11 @@ TEXT
     text-align: center;
     margin: 7px 10px;
 }
-/* 
+.text-l p{
+    text-align: left;
+    margin: 10px 10px;
+}
+/*
 FLOAT 
 */
 
@@ -51,15 +55,28 @@ FLEX
     flex-basis: calc(33.33% - 30px);
     margin: 5px 10px;
 }
+.div-flex{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
 /* 
 HEADER
 */
 .main-header-black{
-    font-size: 3em;
+    flex-basis: 100%;
+    margin: 20px;
+}
+.main-header-black h1{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+.main-header-black p{
+    font-size: 1.1em;
     color: black;
     text-align: center;
     flex-basis: 100%;
-    margin: 20px;
 }
 /* 
 CONCENTRATOR 
@@ -99,7 +116,13 @@ CONCENTRATOR
     color: black;
     padding: 15px;
 }
-
+/* 
+NEWS PAGE 
+*/
+.news{
+    max-width: 800px;
+    margin: 0 auto;
+}
 /*
  RESPONSIVE FLEX
 */
