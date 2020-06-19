@@ -21,6 +21,9 @@ TEXT
     text-align: justify;
     margin: 10px 10px;
 }
+.text-j ul{
+    margin-left: 25px;
+}
 .text-c p{
     text-align: center;
     margin: 7px 10px;
@@ -51,6 +54,10 @@ FLEX
 .img-flex{
     width: 100%;
 }
+.flex-2{
+    flex-basis: calc(49% - 30px);
+    margin: 5px 10px;
+}
 .flex-3{
     flex-basis: calc(33.33% - 30px);
     margin: 5px 10px;
@@ -60,6 +67,14 @@ FLEX
     margin: auto;
     padding: 10px;
 }
+.div-flex > p{
+    font-size: 0.875em;
+    top:100%;
+    background-color: #ddd;
+    padding: 3px;
+    margin: 0;
+}
+
 /* 
 HEADER
 */
@@ -68,6 +83,11 @@ HEADER
     margin: 20px;
 }
 .main-header-black h1{
+    font-size: 2.5em;
+    color: black;
+    text-align: center;
+}
+.main-header-black h2{
     font-size: 2em;
     color: black;
     text-align: center;
@@ -120,7 +140,7 @@ CONCENTRATOR
 NEWS PAGE 
 */
 .news{
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 /*
@@ -128,6 +148,9 @@ NEWS PAGE
 */
 
 @media (min-width: 1em){
+    .flex-2{
+        flex-basis: 100%;
+    }
     .flex-3{
         flex-basis: 90%;
     }
@@ -137,12 +160,18 @@ NEWS PAGE
 }
 
 @media (min-width: 35em){
+    .flex-2{
+        flex-basis: calc(49% - 30px);
+    }
     .flex-3{
         flex-basis: 48%;
     }
 }
 
 @media (min-width: 45em){
+    .flex-2{
+        flex-basis: calc(49% - 30px);
+    }
     .flex-3{
         flex-basis: 48%;
     }
@@ -152,6 +181,9 @@ NEWS PAGE
 }
 
 @media (min-width: 68em){
+    .flex-2{
+        flex-basis: calc(49% - 30px);
+    }
     .flex-3{
         flex-basis: 31%;
     }
